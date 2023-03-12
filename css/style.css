@@ -1,0 +1,584 @@
+/*
+	Rocket Internet by TEMPLATE STOCK
+    templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Typography CSS */
+body
+{
+    font-family: 'Lato', sans-serif;
+    background-color: #333;
+}
+
+
+/* Heder */
+#homeFullScreen {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+#homeFullScreen {
+    background-image: url('../images/bg.jpg');
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+#homeFullScreen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+
+.header-text
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 0px;
+}
+
+
+.header-text h1
+{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.header-text .vertical-line
+{
+    height: 2px;
+    background-color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-text p
+{
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+
+/* feature */
+
+/* .feature{
+    border-bottom: 1px solid rgb(255, 255, 255);
+} */
+
+
+.feature img
+{
+    width: 100%;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.feature-box
+{
+    padding: 20px;
+    margin-bottom: 85px;
+}
+
+.feature-box h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-top: 2em;
+}
+
+.feature-box p
+{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Portfolio */
+.portfolio .heading
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.portfolio img
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.portfolio p{
+    text-align: center;
+    color: #EB3F5C;
+    font-size: 20px;
+}
+
+.portfolio .last-img
+{
+    margin-bottom: 20px;
+}
+
+/* Call to Action */
+.call-top-action
+{
+    background-color: #42484c;
+    color: #fff;
+    padding: 75px 0px;
+    margin-top: 50px 0px;
+}
+
+.call-top-action h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin: 0px;
+}
+
+.call-top-action p
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.call-top-action span
+{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer
+{
+    background-color: #42484c;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px 0 0 0;
+    color: #EB3F5C;
+}
+
+footer ul
+{
+    padding: 0px;
+    list-style: none;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer ul li a span
+{
+    width: 50px;
+    height: 50px;
+    background: #42484C;
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+footer .copyright
+{
+    font-size: 22px;
+    display: block;
+}
+
+
+
+/* Extra Small devices  */
+@media (max-width: 480px) {
+	
+}
+
+/* Extra Small devices  */
+@media (max-width: 767px) {
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .header-text .vertical-line {        
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .header-text p {
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    .feature-box {
+        padding: 0px;
+    }
+
+    .feature-box h1 {
+        font-size: 25px;
+        margin-top: 2em;
+    }
+
+    .feature-box p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .nopadding {
+        padding: 15px !important;
+        margin: 0 !important;
+    }
+
+    .portfolio img {        
+        margin-bottom: 15px;
+    }
+
+    .call-top-action h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px !important;
+        margin: 0px;
+    }
+
+    .call-top-action p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .call-top-action span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    footer ul li a span {
+        width: 40px;
+        height: 40px;
+        background: #42484C;
+        display: block;
+        font-size: 22px;
+        line-height: 40px;
+        color: #fff;
+        border-radius: 50%;
+    }
+
+    footer .copyright {
+        font-size: 16px;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .header-text h1 {
+        font-size: 5.6rem;
+    }
+
+    .header-text p {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .feature-box h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 1em;
+    }
+	
+    .feature-box p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .call-top-action h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-bottom: 13px !important;
+        margin: 0px;
+    }
+
+    .call-top-action p {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+
+    .call-top-action span {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 23px;
+    }
+
+    footer ul li a span {
+        width: 40px;
+        height: 40px;
+        background: #42484C;
+        display: block;
+        font-size: 27px;
+        line-height: 40px;
+        color: #fff;
+        border-radius: 50%;
+    }   
+
+    footer .copyright {
+        font-size: 18px;
+    }
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .feature-box {
+        padding: 10px;
+    }
+
+    .feature-box h1 {
+        font-size: 35px;    
+    }
+
+    .feature-box p {
+        font-size: 20px;
+    }
+
+    .call-top-action p
+    {
+        font-size: 19px;
+    }
+
+    .call-top-action h1 {
+        font-size: 30px;
+       margin-bottom: 15px !important;
+    }
+
+    .call-top-action span {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Typography CSS */
+body
+{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+}
+
+}
+
+.container h1{
+    color: #EB3F5C
+}
+
+.AboutMe{
+    text-align: center;
+}
+
+.AboutMe img{
+    width: 50%;
+    padding: 100px 0px 100px 0px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.experience h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin: 4rem 0 3rem 0;
+    text-align: center;
+}
+
+.experience h3{
+    font-size: 25px;
+  }
+
+hr{
+    width: 90%;
+    border: 0;
+    margin: auto;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
+    
+}
+
+.card img{
+    width: 30%;
+    padding: 20px 0px;
+}
+
+
+.card-title{
+    font-size: 30px;
+  }
+
+.card-title p{
+    margin: 0;
+}
+
+.card-subtitle{
+    font-size: 20px;
+}
+
+.card-content{
+    font-size: 20px;
+}
+
+nav {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+a:link { text-decoration: none; color: #fff;}
+
+
+a:visited { text-decoration: none;color: #fff;}
+
+
+a:hover { text-decoration: none;
+color: #fff;
+}
+
+
+a:active { text-decoration: none; color: #fff;}
+
+
+button {
+    --c:  #EB3F5C; /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+  button {
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+  }
